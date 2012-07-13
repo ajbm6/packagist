@@ -1,12 +1,6 @@
 {
-    "hash": "d3ee6215fdb1681a79c0e01611dbd1ce",
+    "hash": "1972bcc8a86bc38fe93d65f8145db850",
     "packages": [
-        {
-            "package": "composer/composer",
-            "version": "dev-master",
-            "alias-pretty-version": "1.0.x-dev",
-            "alias-version": "1.0.9999999.9999999-dev"
-        },
         {
             "package": "composer/composer",
             "version": "dev-master",
@@ -26,12 +20,6 @@
         {
             "package": "doctrine/doctrine-bundle",
             "version": "dev-master",
-            "alias-pretty-version": "1.0.x-dev",
-            "alias-version": "1.0.9999999.9999999-dev"
-        },
-        {
-            "package": "doctrine/doctrine-bundle",
-            "version": "dev-master",
             "source-reference": "c9ea46d1f0c48bb88bb87b44214fe44e03c0c692",
             "commit-date": "1341405737"
         },
@@ -42,10 +30,24 @@
             "commit-date": "1341676080"
         },
         {
+            "package": "evenement/evenement",
+            "version": "v1.0.0"
+        },
+        {
             "package": "friendsofsymfony/user-bundle",
             "version": "dev-master",
-            "source-reference": "9f0294ebe2f13dbb41c3ac5d19eb0655680a29c6",
-            "commit-date": "1341994043"
+            "source-reference": "ecd1228437f996b59e48a0bac508e057f534d9ad",
+            "commit-date": "1342213828"
+        },
+        {
+            "package": "guzzle/guzzle",
+            "version": "v2.5.0"
+        },
+        {
+            "package": "igorw/event-source",
+            "version": "dev-master",
+            "source-reference": "55a985af113a6ee3651ab327324b8b0ab310c505",
+            "commit-date": "1338390215"
         },
         {
             "package": "justinrainbow/json-schema",
@@ -81,9 +83,31 @@
         },
         {
             "package": "predis/predis",
-            "version": "0.7.x-dev",
-            "source-reference": "v0.7.3",
-            "commit-date": "1338542251"
+            "version": "dev-master",
+            "source-reference": "a75e52cf5ac0236ccc957f524269cd2c867eef2f",
+            "commit-date": "1338545690"
+        },
+        {
+            "package": "predis/predis-async",
+            "version": "dev-react-constraint",
+            "source-reference": "216a5ee3c46b9b91c42bef19f9357f025c75675b",
+            "commit-date": "1342218063"
+        },
+        {
+            "package": "react/event-loop",
+            "version": "v0.1.1"
+        },
+        {
+            "package": "react/http",
+            "version": "v0.1.1"
+        },
+        {
+            "package": "react/socket",
+            "version": "v0.1.1"
+        },
+        {
+            "package": "react/stream",
+            "version": "v0.1.1"
         },
         {
             "package": "seld/jsonlint",
@@ -98,19 +122,8 @@
         {
             "package": "sensio/framework-extra-bundle",
             "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
-        },
-        {
-            "package": "sensio/framework-extra-bundle",
-            "version": "dev-master",
-            "source-reference": "e9ac8f1a911ed29e30296c7f1549f53d4c94eddf"
-        },
-        {
-            "package": "sensio/generator-bundle",
-            "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
+            "source-reference": "e9ac8f1a911ed29e30296c7f1549f53d4c94eddf",
+            "commit-date": "1342084432"
         },
         {
             "package": "sensio/generator-bundle",
@@ -121,13 +134,8 @@
         {
             "package": "snc/redis-bundle",
             "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
-        },
-        {
-            "package": "snc/redis-bundle",
-            "version": "dev-master",
-            "source-reference": "57f7fd10b6ac6a49c80d30a437f7e37c9cc50af3"
+            "source-reference": "57f7fd10b6ac6a49c80d30a437f7e37c9cc50af3",
+            "commit-date": "1342203190"
         },
         {
             "package": "solarium/solarium",
@@ -156,7 +164,8 @@
         {
             "package": "symfony/assetic-bundle",
             "version": "dev-master",
-            "source-reference": "ed933dcfa45f00b6bc6d7727007403f3ff429e5a"
+            "source-reference": "ed933dcfa45f00b6bc6d7727007403f3ff429e5a",
+            "commit-date": "1342126277"
         },
         {
             "package": "symfony/monolog-bundle",
@@ -179,7 +188,8 @@
         {
             "package": "symfony/swiftmailer-bundle",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA2"
+            "source-reference": "v2.1.0-BETA2",
+            "commit-date": "1341509614"
         },
         {
             "package": "symfony/symfony",
@@ -190,8 +200,8 @@
         {
             "package": "symfony/symfony",
             "version": "dev-master",
-            "source-reference": "b0d7d9e40623da9f7d7c1982fc653c3d5edb0f34",
-            "commit-date": "1342207877"
+            "source-reference": "5fb72144da343e239efae6158e4696c1270076b0",
+            "commit-date": "1342216847"
         },
         {
             "package": "twig/extensions",
@@ -228,11 +238,14 @@
         "doctrine/doctrine-bundle": 20,
         "friendsofsymfony/user-bundle": 20,
         "nelmio/solarium-bundle": 20,
+        "predis/predis": 20,
         "sensio/distribution-bundle": 20,
         "sensio/framework-extra-bundle": 20,
         "sensio/generator-bundle": 20,
         "snc/redis-bundle": 20,
         "twig/extensions": 20,
-        "white-october/pagerfanta-bundle": 20
+        "white-october/pagerfanta-bundle": 20,
+        "predis/predis-async": 20,
+        "igorw/event-source": 20
     }
 }

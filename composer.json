@@ -1,4 +1,10 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/igorw/predis-async"
+        }
+    ],
     "description": "Package Repository Website",
     "keywords": ["package", "composer"],
     "homepage": "http://packagist.org/",
@@ -29,7 +35,7 @@
         "doctrine/orm": "2.2.*",
         "friendsofsymfony/user-bundle": "dev-master",
         "nelmio/solarium-bundle": "dev-master",
-        "predis/predis": "0.7.*",
+        "predis/predis": "dev-master",
         "sensio/distribution-bundle": "dev-master",
         "sensio/framework-extra-bundle": "dev-master",
         "sensio/generator-bundle": "dev-master",
@@ -39,7 +45,10 @@
         "symfony/swiftmailer-bundle": "2.1.*",
         "symfony/symfony": "2.1.*",
         "twig/extensions": "dev-master",
-        "white-october/pagerfanta-bundle": "dev-master"
+        "white-october/pagerfanta-bundle": "dev-master",
+        "react/http": "0.1.*",
+        "predis/predis-async": "dev-react-constraint",
+        "igorw/event-source": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [

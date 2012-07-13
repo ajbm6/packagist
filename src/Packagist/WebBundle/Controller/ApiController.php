@@ -159,7 +159,8 @@ class ApiController extends Controller
             $redis->expire($throttleKey, 86400);
         }
         if ($requests <= 10) {
-            $redis->incr('downloads');
+            $val = $redis->incr('downloads');
+            $redis->publish('pub:downloads', $val);
 
             $redis->incr('dl:'.$id);
             $redis->incr('dl:'.$id.':'.date('Ym'));
