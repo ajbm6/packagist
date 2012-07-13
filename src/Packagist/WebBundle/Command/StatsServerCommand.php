@@ -51,9 +51,8 @@ class StatsServerCommand extends ContainerAwareCommand
 
         $redis = new \Predis\Async\Client('tcp://127.0.0.1:6379', $loop);
         $redis->connect(function () use ($redis, $emitter) {
-            $channels = array('pub:downloads', 'pub:foo');
-            $redis->subscribe($channels, function ($event) use ($emitter) {
-                list(, $chan, $msg) = $event;
+            $redis->psubscribe('pub:*', function ($event) use ($emitter) {
+                list(, $pattern, $chan, $msg) = $event;
                 $emitter->emit('message', array($chan, $msg));
             });
         });
